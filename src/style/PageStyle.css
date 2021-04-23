@@ -1,0 +1,43 @@
+.data1 {
+
+}
+.data2{
+    display: none;
+    background-color: black;
+}
+.personal {
+    font-size: 1.5rem;
+    text-align: center;
+    /* margin-top: 10rem;  */
+    margin-bottom: 4rem;
+}
+
+.group118{
+    overflow-x: hidden;
+    width: 70%;
+    position: relative;
+    left: -40%;
+    top: 0%;
+    z-index: -1;
+}
+
+@media only screen and (min-width: 768px) {
+    .data1 {
+        display: none;
+    }
+    .data2{
+        display: unset;
+    }
+
+    .personal {
+        font-size: 3rem;
+        text-align: center;
+    }
+    .group118{
+        position: relative;
+        left: -15%;
+        top: 90%;
+        width: 30%;
+    }
+
+  }
